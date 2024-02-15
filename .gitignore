@@ -1,0 +1,16 @@
+# ignore everything in the root except the 'wp-content' directory.
+/*
+!wp-content/
+!.gitignore
+
+# ignore everything in the 'wp-content' directory, except:
+wp-content/*
+!wp-content/themes/
+
+# ignore these plugins
+wp-content/plugins/*
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
